@@ -64,7 +64,7 @@ technicalSkills:
 sideProjects:
   - name: TwilioEducation
     description: A trivia SMS service called Quizmaster; A project for CS643 at Pace University created using Node.js, Heroku, Twilio, and Firebase.
-    link: https://github.com/jangerhard/TwilioEducation
+    link: https://jangerhard.github.io/TwilioEducation
     type: github
     langs: HTML/CSS/Bootstrap/Node.js
 
