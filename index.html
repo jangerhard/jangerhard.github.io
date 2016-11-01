@@ -51,7 +51,7 @@
         </div>
 
         <div class="col-md-5 text-center">
-        <img src="mikey.png" height="130px" width="130px">
+        <img src="headshot2.png" height="130px" width="140px">
         </div>
 
         <div class="col-xs-3">
@@ -61,9 +61,7 @@
             <li><i class="fa fa-envelope-o"></i> <a href="mailto: {{ site.data.cv.person.email }}">{{ site.data.cv.person.email }}</a></li>
             <li><i class="fa fa-laptop"></i> <a href="http://{{ site.data.cv.person.site }}">{{ site.data.cv.person.site }}</a></li>
             <li><i class="fa fa-phone"></i> {{site.data.cv.person.phone}}</li>
-            <li><i class="fa fa-github"></i> <a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></li>
-            <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/1252056{{site.data.cv.person.stackoverflow}}">{{site.data.cv.person.stackoverflow}}</a></li>
-            </ull>
+            <li><i class="fa fa-github"></i> <a href="https://github.com{{site.data.cv.person.github}}">{{site.data.cv.person.github}}</a></li></ull>
         </div>
       </div>
 
@@ -79,22 +77,17 @@
           <div class="row">
             <div class="col-xs-6">
               <h4><b>{{ item.position }}</b></h4>
+              <h5>{{item.company}} <i>({{item.location}})</i></h5>
             </div>
             <div class="col-xs-6 pull-right">
-              <h5 class="pull-right">{{ item.dates }}<br/>
-              {{item.company}} <i>({{item.location}})</i></h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <p>{{ item.summary }}</p>
+              <h5 class="pull-right">{{ item.dates }}<br/></h5>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
 
            {% if item.accomplishments.size > 0 %}
-            <b>Selected accomplishments:</b>
+
            {% endif %}
             <ul>
             {% for itemm in item.accomplishments %}
@@ -139,15 +132,6 @@
           {% endfor %}
         </div>
         </div>
-        <div>
-          <h4><i class="fa fa-male"></i> Key competencies:</h4>
-        <ul>
-          {% for item in site.data.cv.technicalSkills.list %}
-            <li>{{item.tr}}</li>
-          {% endfor %}
-        </ul>
-
-            </div>
       </div>
     </div>
 
