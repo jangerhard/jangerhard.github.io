@@ -1,5 +1,3 @@
-# Cloned from - https://github.com/streetturtle/jekyll-cv-crafter
-
 # Jekyll CV Crafter
 
 Jekyll powered CV generator. 
