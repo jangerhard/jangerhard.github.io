@@ -1,0 +1,94 @@
+url: http://jangerhard.github.io
+projectUrl: Jan Gerhard Schøpp's CV
+
+person:
+  name: Jan Gerhard Schøpp
+  profesion: Graduate Student
+  location: Brooklyn, NYC
+  citizenship: Norway
+  email: jgschoepp@gmail.com
+  site: http://jangerhard.github.io
+  phone: (203) 550-2615
+  github: /jangerhard
+
+career:
+ - position: Graduate Assistant
+   company: Pace University
+   location: New York, USA
+   dates: Febrauary 2016 – Current
+   summary: --
+   accomplishments:
+    - accomplishment: Assisted professor with a variety of tasks, including research and presentations of new tools and technology, and subject evaluation analysis
+    - accomplishment: Designed and programmed an Android app utilizing beacons and the database tool Firebase for demonstration purposes, distributed to the students at Seidenberg School of Computing
+
+ - position: Marketing and Development Intern
+   company: TADA! Youth Theatre
+   location: New York, USA
+   dates: June 2016 – September 2016
+   summary: --
+   accomplishments:
+    - accomplishment: Created a tool which allowed users to upload images directly to TADA! servers using Javascript and Google Script, implementing notification and error handling systems to ensure stable delivery
+    - accomplishment: Assisted with various tasks such as database management on Salesforce and email support to ensure client satisfaction
+
+ - position: Bartender / Server
+   company: Beverly Hills Fun Pub
+   location: Stavanger, Norway
+   dates: June 2014 – August 2015
+   summary: --
+   accomplishments:
+    - accomplishment: Provided excellent customer service to highly trafficked bar in Norway
+    - accomplishment: Contributed to the success of the bar by consistently selling 300+beverages per night
+
+technicalSkills:
+  list:
+    - tr: "Impulsive, creative and very social"
+    - tr: "Heart and soul of the Ninja Turtles"
+    - tr: "Master of the Kusarigama and nunchucks"
+    - tr: "Labeled as 'The Wild One' and 'The Party Dude'"
+    - tr: "First of the turtles to taste pizza"
+    - tr: "Very proud of his talent for naming thing"
+  backend:
+   - name: Go
+     level: 60
+   - name: Scala
+     level: 20
+  frontend:
+   - name: Android
+     level: 90
+   - name: Web
+     level: 70
+  other:
+   - name: Python
+     level: 40
+
+sideProjects:
+  - name: TwilioEducation
+    description: A trivia SMS service called Quizmaster; A project for CS643 at Pace University created using Node.js, Heroku, Twilio, and Firebase.
+    link: https://jangerhard.github.io/TwilioEducation
+    type: github
+    langs: HTML/CSS/Bootstrap/Node.js
+
+  - name: Appdock
+    description: A mobile application in support of Appdock&#58; AppDock is a space equipped with digital components that aims at addressing the key issues that impede mobile literacy in developing markets. It was designed collaboratively by architecture and computer science researchers and students from NYIT and Pace University respectively.
+    link: http://appdockproject.com/
+    type: site
+    langs: Java for Android
+
+education:
+  - name: Pace University, Seidenberg School of CSIS
+    degree: Master of Science - Computer Science
+    location: New York City, New York
+    dates: Anticipated 05/2017
+    link: http://www.pace.edu
+
+  - name: University of Stavanger
+    degree: Bachelor of Science - Computer Engineering
+    location: Stavanger, Norway
+    dates: 05/2014
+    link: http://www.uis.no
+
+  - name: Hong Kong Polytechnic University
+    degree: Completed coursework in Computer Engineering
+    location: Kowloon, Hong Kong
+    dates: 01/2013 – 12/2013
+    link: https://www.polyu.edu.hk

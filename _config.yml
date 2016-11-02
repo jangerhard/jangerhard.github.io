@@ -1,0 +1,27 @@
+# Site settings
+title: Jan Schoepp
+email: jgschoepp@gmail.com
+url: https://jangerhard.github.io
+description: "A Norwegian graduate student at Pace University, New York"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Jan Gerhard Schøpp
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://linkedin.com/in/jangschoepp
+  - title: github
+    url: https://github.com/jangerhard
+  - title: facebook
+    url: https://www.facebook.com/jangerhard.schopp
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
