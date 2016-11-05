@@ -252,6 +252,11 @@ a:focus {
     padding-top: 100px;
 }
 
+.no-gutter > [class*='col-'] {
+    padding-top:0;
+    padding-bottom:0;
+}
+
 .jd{
 border-bottom: 1px solid darkgrey;
 padding: 10px 0px;
