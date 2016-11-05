@@ -64,13 +64,15 @@ technicalSkills:
 sideProjects:
   - name: TwilioEducation
     description: A trivia SMS service called Quizmaster; A project for CS643 at Pace University created using Node.js, Heroku, Twilio, and Firebase.
-    link: https://jangerhard.github.io/TwilioEducation
+    link: /TwilioEducation
+    img_source: img/quizmaster_logo.png
     type: github
     langs: HTML/CSS/Bootstrap/Node.js
 
   - name: Appdock
     description: A mobile application in support of Appdock&#58; AppDock is a space equipped with digital components that aims at addressing the key issues that impede mobile literacy in developing markets. It was designed collaboratively by architecture and computer science researchers and students from NYIT and Pace University respectively.
     link: http://appdockproject.com/
+    img_source: img/appdock_logo.png
     type: site
     langs: Java for Android
 
