@@ -20,9 +20,9 @@
                                 <h5 class="pull-right">{{ item.dates }}</h5>
                             </div>
                         </div>
+                        {% if item.accomplishments.size > 0 %}
                         <div class="row text-left">
                             <div class="col-xs-12">
-                                {% if item.accomplishments.size > 0 %} {% endif %}
                                 <ul>
                                     {% for itemm in item.accomplishments %}
                                     <li>
@@ -32,6 +32,7 @@
                                 </ul>
                             </div>
                         </div>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
