@@ -82,15 +82,18 @@ education:
     location: New York City, New York
     dates: Anticipated 05/2017
     link: http://www.pace.edu
+    gpa: 3.83
 
   - name: University of Stavanger
     degree: Bachelor of Science - Computer Engineering
     location: Stavanger, Norway
     dates: 05/2014
     link: http://www.uis.no
+    gpa: 0
 
   - name: Hong Kong Polytechnic University
     degree: Completed coursework in Computer Engineering
     location: Kowloon, Hong Kong
     dates: 01/2013 – 12/2013
     link: https://www.polyu.edu.hk
+    gpa: 0
