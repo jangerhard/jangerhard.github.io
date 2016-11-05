@@ -1,0 +1,28 @@
+<!-- education Section -->
+<section id="education" class="content-section text-center">
+    <div class="career-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Education</h2>
+                <div class="row">
+                    {% for item in site.data.cv.education %}
+                    <div class="jd">
+                        <div class="row no-gutter">
+                            <div class="col-xs-7 text-left">
+                                <h4><b>{{ item.name }}</b>, ({{item.location}}) </h4>
+                                <h5><i>{{ item.degree }}</i></h5>
+                                {% if item.gpa > 0 %}
+                                  <h5><b>GPA: </b>{{ item.gpa }}<i></i></h5>
+                                {% endif %}
+                            </div>
+                            <div class="col-xs-5 text-right">
+                                <h5 class="pull-right">{{ item.dates }}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
