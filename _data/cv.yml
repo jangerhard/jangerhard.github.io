@@ -40,9 +40,9 @@ career:
     - accomplishment: Contributed to the success of the bar by consistently selling 300+beverages per night
 
 technicalSkills:
-  Proficient languages: Java, HTML, Go, SQL
-  Familiar languages: Python, C, Scala, Javascript, Node.js
-  Development Tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
+  proficient: Java, HTML, Go, SQL
+  familiar: Python, C, Scala, Javascript, Node.js
+  tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
 
 sideProjects:
   - name: TwilioEducation
