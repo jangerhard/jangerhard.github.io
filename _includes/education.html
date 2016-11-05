@@ -9,10 +9,12 @@
                     <div class="jd">
                         <div class="row no-gutter">
                             <div class="col-xs-7 text-left">
-                                <h4><b>{{ item.name }}</b>, ({{item.location}}) </h4>
-                                <h5><i>{{ item.degree }}</i></h5>
+                                <b>{{ item.name }}</b>, {{item.location}}
+                                <br>
+                                <i>{{ item.degree }}</i>
                                 {% if item.gpa > 0 %}
-                                  <h5><b>GPA: </b>{{ item.gpa }}<i></i></h5>
+                                <br>
+                                <b>GPA: </b>{{ item.gpa }}
                                 {% endif %}
                             </div>
                             <div class="col-xs-5 text-right">
