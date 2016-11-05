@@ -6,21 +6,15 @@
         <h2>My Work</h2>
         <hr class="small">
         <div class="row">
-          <div class="col-md-6">
+          {% for item in site.data.cv.sideProjects %}
+          <div class="col-md-6 ">
             <div class="portfolio-item">
-              <a href="/TwilioEducation">
-                <img class="img-portfolio img-responsive" src="img/quizmaster_logo.png">
+              <a href={{ item.link }}>
+                <img class="img-portfolio img-responsive" src={{ item.img_source }}>
               </a>
             </div>
           </div>
-          <br>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="http://appdockproject.com/">
-                <img class="img-portfolio img-responsive" src="img/appdock_logo.png">
-              </a>
-            </div>
-          </div>
+          {% endfor %}
         </div>
         <!-- /.row (nested) -->
       </div>

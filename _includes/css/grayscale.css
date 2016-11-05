@@ -261,8 +261,25 @@ a:focus {
 border-bottom: 1px solid darkgrey;
 padding: 10px 0px;
 }
+
 .jd:last-child{
   border-bottom: none;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
 }
 
 .career-section {
