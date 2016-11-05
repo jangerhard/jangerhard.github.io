@@ -40,26 +40,9 @@ career:
     - accomplishment: Contributed to the success of the bar by consistently selling 300+beverages per night
 
 technicalSkills:
-  list:
-    - tr: "Impulsive, creative and very social"
-    - tr: "Heart and soul of the Ninja Turtles"
-    - tr: "Master of the Kusarigama and nunchucks"
-    - tr: "Labeled as 'The Wild One' and 'The Party Dude'"
-    - tr: "First of the turtles to taste pizza"
-    - tr: "Very proud of his talent for naming thing"
-  backend:
-   - name: Go
-     level: 60
-   - name: Scala
-     level: 20
-  frontend:
-   - name: Android
-     level: 90
-   - name: Web
-     level: 70
-  other:
-   - name: Python
-     level: 40
+  Proficient languages: Java, HTML, Go, SQL
+  Familiar languages: Python, C, Scala, Javascript, Node.js
+  Development Tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
 
 sideProjects:
   - name: TwilioEducation
