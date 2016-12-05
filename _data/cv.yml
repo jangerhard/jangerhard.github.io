@@ -27,6 +27,7 @@ career:
    dates: June 2016 – September 2016
    summary: --
    accomplishments:
+    - accomplishment: <a href="https://youtu.be/ddlEGG9AQkY">Audio Testimonial from TADA! Director of Development Amy Fiore</a>
     - accomplishment: Created a tool which allowed users to upload images directly to TADA! servers using Javascript and Google Script, implementing notification and error handling systems to ensure stable delivery
     - accomplishment: Assisted with various tasks such as database management on Salesforce and email support to ensure client satisfaction
 
