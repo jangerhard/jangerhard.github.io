@@ -1,26 +1,28 @@
 <!-- career Section -->
 <section id="portfolio" class="content-section text-center">
-  <div class="container portfolio">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h2>Portfolio</h2>
-        <hr class="small">
-        <div class="row">
-          {% for item in site.data.cv.sideProjects %}
-          <div class="col-md-6 ">
-            <div class="portfolio-item">
-              <a href={{ item.link }}>
-                <img class="img-portfolio img-responsive" src={{ item.img_source }}>
-              </a>
+    <div class="container">
+        <div class="portfolio">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="small">
+                    <div class="row">
+                        {% for item in site.data.cv.sideProjects %}
+                        <div class="col-md-6 ">
+                            <div class="portfolio-item">
+                                <a href={{ item.link }}>
+                                    <img class="img-portfolio img-responsive" src={{ item.img_source }}>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
             </div>
-          </div>
-          {% endfor %}
+            <!-- /.row -->
         </div>
-        <!-- /.row (nested) -->
-      </div>
-      <!-- /.col-lg-10 -->
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
+    <!-- /.container -->
 </section>
