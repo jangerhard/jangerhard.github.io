@@ -19,6 +19,7 @@ career:
    summary: --
    accomplishments:
     - accomplishment: Assisted professor with a variety of tasks, including research and presentations of new tools and technology, and subject evaluation analysis
+    - accomplishment: Helped to develop and improve an app combating mobile illiteracy in Senegal, by refactoring over 14,000 lines of code, and integrating tools like Firebase to ease future maintenance
     - accomplishment: Was a part of the <a href="http://pacemobilelab.com">Pace Mobile Lab</a> team, researching mobile technology solutions and building apps to further mobile literacy
     - accomplishment: Designed and programmed an Android app utilizing beacons and the database tool Firebase for demonstration purposes, distributed to the students at Seidenberg School of Computing
     - accomplishment: Held onsite instructional workshops on how to work with Git and Github, and how to use Firebase, for around 60-70 students
