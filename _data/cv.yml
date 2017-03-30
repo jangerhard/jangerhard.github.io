@@ -21,6 +21,7 @@ career:
     - accomplishment: Assisted professor with a variety of tasks, including research and presentations of new tools and technology, and subject evaluation analysis
     - accomplishment: Was a part of the <a href="http://pacemobilelab.com">Pace Mobile Lab</a> team, researching mobile technology solutions and building apps to further mobile literacy
     - accomplishment: Designed and programmed an Android app utilizing beacons and the database tool Firebase for demonstration purposes, distributed to the students at Seidenberg School of Computing
+    - accomplishment: Held onsite instructional workshops on how to work with Git and Github, and how to use Firebase, for around 60-70 students
 
  - position: Marketing and Development Intern
    company: TADA! Youth Theatre
@@ -39,10 +40,10 @@ career:
    summary: --
    accomplishments:
     - accomplishment: Provided excellent customer service to highly trafficked bar in Norway
-    - accomplishment: Contributed to the success of the bar by consistently selling 300+beverages per night
+    - accomplishment: Contributed to the success of the bar by consistently selling 300+ beverages per night
 
 technicalSkills:
-  proficient: Java, HTML, Go, SQL
+  proficient: Java, HTML, Go
   familiar: Python, C, Scala, Javascript, Node.js
   tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
 
@@ -74,7 +75,7 @@ education:
     location: New York City, New York
     dates: Anticipated 05/2017
     link: http://www.pace.edu
-    gpa: 3.83
+    gpa: 3.86
 
   - name: University of Stavanger
     degree: Bachelor of Science - Computer Engineering
