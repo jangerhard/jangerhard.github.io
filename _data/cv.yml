@@ -19,8 +19,8 @@ career:
    summary: --
    accomplishments:
     - accomplishment: Assisted professor with a variety of tasks, including research and presentations of new tools and technology, and subject evaluation analysis
-    - accomplishment: Helped to develop and improve an app combating mobile illiteracy in Senegal, by refactoring over 14,000 lines of code, and integrating tools like Firebase to ease future maintenance
     - accomplishment: Was a part of the <a href="http://pacemobilelab.com">Pace Mobile Lab</a> team, researching mobile technology solutions and building apps to further mobile literacy
+    - accomplishment: Helped to develop and improve an app combating mobile illiteracy in Senegal, by refactoring over 14,000 lines of code, and integrating tools like Firebase to ease future maintenance
     - accomplishment: Designed and programmed an Android app utilizing beacons and the database tool Firebase for demonstration purposes, distributed to the students at Seidenberg School of Computing
     - accomplishment: Held onsite instructional workshops on how to work with Git and Github, and how to use Firebase, for around 60-70 students
 
@@ -44,8 +44,8 @@ career:
     - accomplishment: Contributed to the success of the bar by consistently selling 300+ beverages per night
 
 technicalSkills:
-  proficient: Java, HTML, Go
-  familiar: Python, C, Scala, Javascript, Node.js
+  proficient: Java, Go
+  familiar: Python, C, Scala, Javascript, Node.js, React
   tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
 
 sideProjects:
@@ -56,10 +56,10 @@ sideProjects:
     type: github
     langs: HTML/CSS/Bootstrap/Node.js
 
-  - name: Appdock
-    description: A mobile application in support of Appdock&#58; AppDock is a space equipped with digital components that aims at addressing the key issues that impede mobile literacy in developing markets. It was designed collaboratively by architecture and computer science researchers and students from NYIT and Pace University respectively.
-    link: http://appdockproject.com/
-    img_source: img/appdock_logo.png
+  - name: AppliCafe
+    description: A mobile application in support of AppliCafe&#58; AppliCafe is a space equipped with digital components that aims at addressing the key issues that impede mobile literacy in developing markets. It was designed by computer science researchers and students from Pace University.
+    link: http://mobilesenegal.org/applicafe/
+    img_source: img/logo_applicafe.png
     type: site
     langs: Java for Android
 
