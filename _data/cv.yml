@@ -3,19 +3,25 @@ projectUrl: Jan Gerhard Schøpp's CV
 
 person:
   name: Jan Gerhard Schøpp
-  profesion: Graduate Student
-  location: Brooklyn, NYC
+  profesion: IT Developer
+  location: Oslo, Norway
   citizenship: Norway
   email: jgschoepp@gmail.com
   site: http://jangerhard.github.io
-  phone: (203) 550-2615
+  phone: +47 480 20 857
   github: /jangerhard
 
 career:
+ - position: IT Developer
+   company: Nordea
+   location: Oslo, Norway
+   dates: August 2017 - Current
+   summary: --
+
  - position: Graduate Assistant
    company: Pace University
    location: New York, USA
-   dates: Febrauary 2016 – Current
+   dates: Febrauary 2016 – July 2017
    summary: --
    accomplishments:
     - accomplishment: Assisted professor with a variety of tasks, including research and presentations of new tools and technology, and subject evaluation analysis
