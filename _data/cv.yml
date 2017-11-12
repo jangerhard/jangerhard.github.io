@@ -76,6 +76,13 @@ sideProjects:
     type: site
     langs: Java for Android
 
+  - name: Wallet Watcher
+    description: --
+    link: https://play.google.com/store/apps/details?id=io.github.jangerhard.BitcoinWalletTracker&hl=en
+    img_source: img/wallet_watcher_screenshot.png
+    type: site
+    langs: Java for Android
+
 education:
   - name: Pace University, Seidenberg School of CSIS
     degree: Master of Science - Computer Science
