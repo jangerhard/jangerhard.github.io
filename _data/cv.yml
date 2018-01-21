@@ -17,6 +17,8 @@ career:
    location: Oslo, Norway
    dates: August 2017 - Current
    summary: --
+   accomplishments:
+    - accomplishment: Maintained Nordea’s private online banking website, used mainly by residents of Norway
 
  - position: Graduate Assistant
    company: Pace University
