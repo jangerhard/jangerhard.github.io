@@ -50,8 +50,8 @@ career:
     - accomplishment: Contributed to the success of the bar by consistently selling 300+ beverages per night
 
 technicalSkills:
-  proficient: Java, Go
-  familiar: Python, C, Scala, Javascript, Node.js, React
+  proficient: Java
+  familiar: Python, Go, C, Scala, Javascript, Node.js, React
   tools: Git, Cordova, ionic, Firebase, Google Script, Salesforce, Heroku, Twilio
 
 sideProjects:
