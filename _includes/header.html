@@ -3,31 +3,42 @@
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="animatedName">
-                        <svg height="300" version="1.1" width="400"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <text class="svgTitle" fill="#fff" style="font-family: 'Allura', sarif"
-                                  font-size="150"
-                                  stroke="#fff" stroke-linecap="butt"
-                                  stroke-linejoin="miter" stroke-width="3"
-                                  x="95"
-                                  y="100">
-                                {{ site.firstName }}
-                            </text>
-                            <text class="svgTitle" fill="#fff" style="font-family: 'Allura', sarif"
-                                  font-size="150"
-                                  stroke="#fff" stroke-linecap="butt"
-                                  stroke-linejoin="miter" stroke-width="3" x="20"
-                                  y="225">
-                                {{ site.lastName }}
-                            </text>
-                        </svg>
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-offset-1">
+                            <div id="avatar"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <svg height="300" version="1.1" width="400"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <text class="svgTitle" fill="#fff"
+                                      style="font-family: 'Allura', sarif"
+                                      font-size="150"
+                                      stroke="#fff" stroke-linecap="butt"
+                                      stroke-linejoin="miter" stroke-width="3"
+                                      x="95"
+                                      y="100">
+                                    {{ site.firstName }}
+                                </text>
+                                <text class="svgTitle" fill="#fff"
+                                      style="font-family: 'Allura', sarif"
+                                      font-size="150"
+                                      stroke="#fff" stroke-linecap="butt"
+                                      stroke-linejoin="miter" stroke-width="3"
+                                      x="20"
+                                      y="225">
+                                    {{ site.lastName }}
+                                </text>
+                            </svg>
+                        </div>
                     </div>
-                    <p class="intro-text">{{ site.description }}<br>
-                        <a href="#background" class="btn btn-circle page-scroll">
+                    <p class="intro-text">{{ site.description
+                    }}<br>
+                        <a href="#background"
+                           class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                    </p>
                 </div>
             </div>
         </div>
