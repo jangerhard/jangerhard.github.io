@@ -161,7 +161,7 @@ a:focus {
     fill: #fff;
     stroke-dasharray: 600;
     opacity: 10;
-    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+    animation: animate 3s cubic-bezier(.82,.18,.97,.27);
 }
 
 @keyframes animate {
