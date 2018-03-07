@@ -374,9 +374,10 @@ a:focus {
     background: #626262;
     border-radius: 10px;
     height: 200px;
-    margin: 4rem;
+    margin: 4rem auto;
     position: relative;
-    width: 550px;
+    width: auto;
+    max-width: 550px;
     padding: 25px;
 
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
