@@ -86,23 +86,26 @@ sideProjects:
     langs: Java for Android
 
 education:
-  - name: Pace University, Seidenberg School of CSIS
-    degree: Master of Science - Computer Science
+  - name: Pace University
+    degree: Master of Computer Science
     location: New York City, New York
-    dates: 05/2017
+    dates: May 2017
     link: http://www.pace.edu
     gpa: 3.86
+    logoURL: img/pace_logo.jpg
 
   - name: University of Stavanger
-    degree: Bachelor of Science - Computer Engineering
+    degree: Bachelor of Computer Engineering
     location: Stavanger, Norway
-    dates: 05/2014
+    dates: May 2014
     link: http://www.uis.no
     gpa: 0
+    logoURL: img/uis_logo.png
 
   - name: Hong Kong Polytechnic University
-    degree: Completed coursework in Computer Engineering
+    degree: Coursework in Computer Engineering
     location: Kowloon, Hong Kong
-    dates: 01/2013 – 12/2013
+    dates: 2013
     link: https://www.polyu.edu.hk
     gpa: 0
+    logoURL: img/polyu_logo.png

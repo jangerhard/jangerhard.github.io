@@ -2,24 +2,22 @@
 <section id="education" class="content-section text-center">
     <div class="career-section">
         <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2 ">
                 <h2>Education</h2>
                 <div class="row">
                     {% for item in site.data.cv.education %}
-                    <div class="jd">
-                        <div class="row no-gutter">
-                            <div class="col-xs-7 text-left">
-                                <b>{{ item.name }}</b>, {{item.location}}
-                                <br>
-                                <i>{{ item.degree }}</i>
-                                {% if item.gpa > 0 %}
-                                <br>
-                                <b>GPA: </b>{{ item.gpa }}
-                                {% endif %}
-                            </div>
-                            <div class="col-xs-5 text-right">
-                                <h5 class="pull-right">{{ item.dates }}</h5>
-                            </div>
+
+                    <div class="uniShowcase">
+                        <div id="uniLogo">
+                            <img id="img-uni" src={{ item.logoURL }}/>
+                        </div>
+                        <div class="infoWrapper">
+                            <div id="uniDate">{{ item.dates }}</div>
+                            <div id="uniName">{{ item.name }}</div>
+                            <div id="uniInfo">{{ item.degree }}</div>
+                            {% if item.gpa > 0 %}
+                                <div id="uniGPA">GPA: {{ item.gpa }}</div>
+                            {% endif %}
                         </div>
                     </div>
                     {% endfor %}
