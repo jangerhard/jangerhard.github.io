@@ -378,7 +378,7 @@ a:focus {
     position: relative;
     width: auto;
     max-width: 550px;
-    padding: 25px;
+    padding: 30px;
 
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -391,8 +391,10 @@ a:focus {
 .uniShowcase #img-uni {
 
     /* make a square container */
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    max-height: 150px;
 
     /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
@@ -414,10 +416,6 @@ a:focus {
         padding: 100px 0;
     }
 
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
 }
 
 .btn {
