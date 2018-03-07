@@ -371,6 +371,7 @@ a:focus {
     justify-content: space-evenly;
     align-items: center;
 
+    color: #ffffff;
     background: #626262;
     border-radius: 10px;
     height: 200px;

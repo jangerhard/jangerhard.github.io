@@ -7,19 +7,21 @@
                 <div class="row">
                     {% for item in site.data.cv.education %}
 
-                    <div class="uniShowcase">
-                        <div id="uniLogo">
-                            <img id="img-uni" src={{ item.logoURL }}/>
-                        </div>
-                        <div class="infoWrapper">
-                            <div id="uniDate">{{ item.dates }}</div>
-                            <div id="uniName">{{ item.name }}</div>
-                            <div id="uniInfo">{{ item.degree }}</div>
-                            {% if item.gpa > 0 %}
+                    <a href={{ item.link }}>
+                        <div class="uniShowcase">
+                            <div id="uniLogo">
+                                <img id="img-uni" src={{ item.logoURL }}/>
+                            </div>
+                            <div class="infoWrapper">
+                                <div id="uniDate">{{ item.dates }}</div>
+                                <div id="uniName">{{ item.name }}</div>
+                                <div id="uniInfo">{{ item.degree }}</div>
+                                {% if item.gpa > 0 %}
                                 <div id="uniGPA">GPA: {{ item.gpa }}</div>
-                            {% endif %}
+                                {% endif %}
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     {% endfor %}
                 </div>
             </div>
