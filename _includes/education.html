@@ -9,15 +9,20 @@
 
                     <a href={{ item.link }}>
                         <div class="uniShowcase">
+                            <div class="date"><span class="year">{{
+                                item.dateYear }}</span>
+                                {% if item.dateMonth %}
+                                <span class="month">{{ item.dateMonth }}</span>
+                                {% endif %}
+                            </div>
                             <div id="uniLogo">
                                 <img id="img-uni" src={{ item.logoURL }}>
                             </div>
                             <div class="infoWrapper">
-                                <div id="uniDate">{{ item.dates }}</div>
                                 <div id="uniName">{{ item.name }}</div>
                                 <hr>
                                 <div id="uniInfo">{{ item.degree }}</div>
-                                {% if item.gpa > 0 %}
+                                {% if item.gpa %}
                                 <div id="uniGPA">GPA: {{ item.gpa }}</div>
                                 {% endif %}
                             </div>

@@ -391,7 +391,7 @@ a:focus {
 
     background: #626262;
     border-radius: 10px;
-    height: 200px;
+    height: 250px;
     margin: 4rem auto;
     position: relative;
     width: auto;
@@ -422,6 +422,30 @@ a:focus {
 
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
+}
+
+.uniShowcase .date {
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+    min-height: 38px;
+    min-width: 48px;
+    padding: 10px 0;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+}
+
+.uniShowcase .date span {
+    display: block;
+    line-height: 14px;
+}
+
+.uniShowcase  .date .month {
+    font-size: 11px;
 }
 
 

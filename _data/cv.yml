@@ -89,7 +89,8 @@ education:
   - name: Pace University
     degree: Master of Computer Science
     location: New York City, New York
-    dates: May 2017
+    dateMonth: May
+    dateYear: 2017
     link: http://www.pace.edu
     gpa: 3.86
     logoURL: img/pace_logo.jpg
@@ -97,15 +98,14 @@ education:
   - name: University of Stavanger
     degree: Bachelor of Computer Engineering
     location: Stavanger, Norway
-    dates: May 2014
+    dateMonth: May
+    dateYear: 2014
     link: http://www.uis.no
-    gpa: 0
     logoURL: img/uis_logo.png
 
   - name: HK Polytechnic University
     degree: Coursework in Computer Engineering
     location: Kowloon, Hong Kong
-    dates: 2013
+    dateYear: 2013
     link: https://www.polyu.edu.hk
-    gpa: 0
     logoURL: img/polyu_logo.png
