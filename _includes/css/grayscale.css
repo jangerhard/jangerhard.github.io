@@ -218,7 +218,14 @@ a:focus {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 @media(min-width:767px) {
     .intro {
         height: 100%;
