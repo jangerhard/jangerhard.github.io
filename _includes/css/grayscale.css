@@ -418,7 +418,7 @@ a:focus {
     background-size: cover;
 
     /* center the image vertically and horizontally */
-    background-position: top center;
+    background: white top center;
 
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
