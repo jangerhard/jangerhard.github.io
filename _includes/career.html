@@ -6,34 +6,24 @@
                 <h2>Career</h2>
                 <div class="row">
                     {% for item in site.data.cv.career %}
-                    <div class="jd">
-                        <div class="row text-left">
-                            <div class="col-xs-7">
-                                <h4><b>{{ item.company }}</b>, <i>{{ item.location}}</i></h4>
-                            </div>
-                            <div class="col-xs-5 text-right">
-                                {{ item.dates }}
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 text-left">
-                                <h5>{{ item.position }}</h5>
-                            </div>
-                        </div>
-                        {% if item.accomplishments.size > 0 %}
-                        <div class="row text-left">
-                            <div class="col-xs-12">
-                                <ul>
-                                    {% for itemm in item.accomplishments %}
-                                    <li>
-                                        {{itemm.accomplishment}}
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                        {% endif %}
-                    </div>
+                    <div class="blog-card spring-fever">
+                        <div class="title-content">
+                            <h3>IT Developer</h3>
+                            <hr />
+                            <div class="intro">Nordea, Oslo Norway</div>
+                        </div><!-- /.title-content -->
+                        <div class="card-info">
+                            Maintained Nordea’s private online banking website, used mainly by residents of Norway
+                        </div><!-- /.card-info -->
+                        <div class="utility-info">
+                            <ul class="utility-list">
+                                <li class="date">Aug 2017 - Current</li>
+                            </ul>
+                        </div><!-- /.utility-info -->
+                        <!-- overlays -->
+                        <div class="gradient-overlay"></div>
+                        <div class="color-overlay"></div>
+                    </div><!-- /.blog-card -->
                     {% endfor %}
                 </div>
             </div>
